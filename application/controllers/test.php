@@ -19,10 +19,10 @@ class Test extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->test();
+		$this->filetest();
 	}
 
-	public function test(){
+	public function filetest(){
 		$this->load->view('welcome_message');
 		///
 	}
