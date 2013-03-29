@@ -26,7 +26,22 @@ class Test extends CI_Controller {
 		$this->load->view('welcome_message');
 		///
 	}
+
+	public function kyletest(){
+		$this->load->view('index_cafe24');
+		///
+	}
+
+	public function switchtest($what){
+		if($what == 'welcome')
+			$this->filetest();
+		else if($what == 'cafe24')
+			$this->kyletest();
+		///
+	}
 }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+// END Test class
+
+/* End of file test.php */
+/* Location: ./controllers/test.php */
