@@ -38,6 +38,15 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+<<<<<<< HEAD
 =======
 >>>>>>> gitignore
 .htaccess
+=======
+.htaccess
+.htaccess
+
+.htaccess
+
+.htaccess
+>>>>>>> gitignore
