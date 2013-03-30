@@ -18,12 +18,10 @@ class Test extends CI_Controller {
 	 */
 	public function index()
 	{
-<<<<<<< HEAD
+
 		$this->filetest();
-=======
 		
-		$this->load->view('welcome_message');
->>>>>>> gitignore
+		///$this->load->view('welcome_message');
 	}
 
 	public function filetest(){
