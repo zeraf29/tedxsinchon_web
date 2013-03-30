@@ -1,7 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Test extends CI_Controller {
-	public $test;
 	/**
 	 * Index Page for this controller.
 	 *
@@ -19,7 +18,12 @@ class Test extends CI_Controller {
 	 */
 	public function index()
 	{
+<<<<<<< HEAD
 		$this->filetest();
+=======
+		
+		$this->load->view('welcome_message');
+>>>>>>> gitignore
 	}
 
 	public function filetest(){
