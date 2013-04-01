@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	padding:0px;
+	font:12px NanumGothic, 나눔고딕, "맑은 고딕", ngttf, ngeot, 돋움, dotum, arial, serif, sans-serif;
+	color:#666;
+}
+
+ul, dl, ol , dt, dd, p, h1, h2, h3, h4, h5, h6 {margin:0px; padding:0px;}
+
+ul, ol, li {list-style-type:none;}
+
+fieldset {display:block; border:0; padding:0; margin:0;}
+legend {position:absolute; visibility:hidden; width:0; height:0; overflow:hidden; font-size:0;}
+form {margin:0px; padding:0px;}
+input.inputText {#margin:-1px 0; padding:2px 0 0 5px; height:15px; border:1px solid #d8d8d6; font-size:11px; color:#666;}
+input.inputFile {#margin:-1px 0; border:1px solid #d8d8d6; font-size:11px; color:#666;}
+input.inputChk {width:13px; height:13px;}
+input.inputRa {#margin-top:-2px;}
+select {padding:1px; height:20px; font:normal 12px dotum; .font:normal 11px Sans-serif; color:#666;}
+textarea {padding:5px; border:1px solid #B7B8BA; color:#767676; font-size:11px;}
+
+img {border:0px;}
+
+hr {display:none;}
+
+address {font-style:normal;}
+
+.bgnone {background-image: none !important;}
+
+table {clear:both; word-break:break-all; color:#666;}
+caption {position:absolute; visibility:hidden; margin:0; padding:0; width:0; height:0; overflow:hidden; font:0/0 arial;}
+
+#wrapper{
+	width:100%;
+}
+#header{
+
+}
+.wrapper_guide{
+	position:relative; 
+	margin:0 auto; 
+	width:960px
+}
+#header .header_logo{
+	margin-left:35px;
+	margin-top:50px;
+	margin-bottom:20px;
+}
+#header .header_menu{
+	float:left; 
+	width:100%; 
+	/*background:url(../img/common/bg_gnb_01.gif) repeat-x left top;*/
+	background-color:#000;
+
+}
+#header .header_menu ul{
+	float: left;
+	
+	
+}
+#header .header_menu ul li{
+	float: left;
+}
