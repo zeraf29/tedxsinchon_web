@@ -50,3 +50,5 @@ Thumbs.db
 
 .htaccess
 >>>>>>> gitignore
+
+.DS_Store
